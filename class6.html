@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    header{
+        background-color: burlywood;
+    }
+    nav{
+        background-color: beige;
+        padding:10px
+
+    }
+    ul{
+        margin:0;
+        padding:0;
+        list-style-type: none;
+        overflow:hidden
+    }
+    li{
+        float:left;
+        padding:20px;
+        margin-left:50px;
+    }
+    li a{
+        display:block
+    }
+    
+</style>
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1>Red Pandas</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.txt">Home</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Red_panda">About</a></li>
+                    <li><a href="https://pixabay.com/images/search/red%20panda/">Photos</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <h2>Interesting information</h2>
+        <p>You can add images videos audios tags stylings its up to you.</p>
+        <button onclick="pandas()">Read more</button>
+        <br>
+        <i id="A"></i>
+        <h3>location of Red Panda</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d261476733.4420086!2d-44.603699049999996!3d0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e68195d625bbf3%3A0x9759609ffca4c6ef!2sRed%20Panda%20Jungle%20Camp!5e0!3m2!1sen!2sin!4v1753960033562!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+    <script>
+        function pandas(){
+           document.getElementById("A").innerHTML=
+           "The red panda and the raccoon are two fascinating creatures that often capture the hearts of animal enthusiasts worldwide."
+        }
+    </script>
+</body>
+
+</html>
